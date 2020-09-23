@@ -60,7 +60,9 @@ namespace Parque
             string lista = "";
             foreach(Veiculo v in Lugares)
             {
-                //TODO: continuar aqui!!!!
+                if ((marca != null && v.Marca == marca) ||
+                    (marca == null))
+                    lista += v.ToString() + "\n";
             }
             return lista;
         }

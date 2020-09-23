@@ -10,6 +10,8 @@ namespace Parque
     {
         static void Main(string[] args)
         {
+            Menu m = new Menu();
+            m.MainLoop();
         }
     }
 }

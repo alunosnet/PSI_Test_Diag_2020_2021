@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GerirParque.cs" />
+    <Compile Include="Menu.cs" />
     <Compile Include="Mercadoria.cs" />
     <Compile Include="Passageiro.cs" />
     <Compile Include="Program.cs" />
